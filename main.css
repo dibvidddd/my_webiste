@@ -1,0 +1,214 @@
+body {
+    weight: 100%;
+    height: 100%;
+    background-color: rgb(88, 88, 88);
+    background-image: url(../Code/img/abstract-triangles-background.jpg);
+    position: static;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+a {
+    cursor: pointer;
+    text-align: center;
+}
+
+.header-main {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    display: inline-flexbox;
+    z-index: 1000;
+}
+ 
+.header-main .engk {
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    text-decoration: double;
+    line-height: normal;
+    word-spacing: normal;
+    z-index: 100;
+}
+
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-main-nav ul li {
+    display: flex;
+    float: left;
+    color: azure;
+}
+
+.header-main-nav ul li {
+    padding: 0 10px;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 60px;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+}
+
+.header-main-nav ul li a:hover{
+    color:dimgray;
+}
+
+.about-me-title {
+    color: azure;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-decoration: double;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+.personal-info {
+    color: azure;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-decoration: double;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+body::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(../Code/img/photo_6118646672746727338_y.jpg);
+}
+
+.pics-me {
+    width: 100%;
+    height: 1000px;
+    background-image: url(../Code/img/photo_6118646672746727338_y.jpg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all ease-in-out 1s;
+}
+
+.pics-me:hover {
+    background-image: url(../Code/img/photo_6334600106585737396_y.jpg);
+}
+
+#contact-info {
+    color: azure;
+    font-size: 15px;
+    text-align: center;
+}
+
+.contact-head {
+    color: azure;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: double;
+    margin-top: 30px;
+}
+
+.cp-num {
+    color: azure;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.email-ad {
+    color: azure;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.my-accout {
+    color: azure;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fb-link {
+    color: azure;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fb-link:hover {
+    color: black;
+}
+
+.ig-link {
+    color: azure;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ig-link:hover {
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    height: 10px;
+    bottom: 0;
+    background-color:black;
+    display:inline-table;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    line-height: normal;
+    z-index: 100;
+}
